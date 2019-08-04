@@ -13,6 +13,18 @@ buildscript {
     }
 }
 
+repositories {
+    mavenCentral()
+    maven {
+        url "https://maven.google.com"
+    }
+}
+
+dependencies {
+    classpath 'com.google.gms:google-services:+'
+}
+
+
 // use postBuildExtras to make sure the plugin is applied after
 // cdvPluginPostBuildExtras. Therefore if googleServices is added
 // to cdvPluginPostBuildExtras somewhere else, the plugin execution
