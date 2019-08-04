@@ -21,7 +21,8 @@ repositories {
 }
 
 dependencies {
-    classpath 'com.google.gms:google-services:+'
+    classpath 'com.android.tools.build:gradle:+'
+    classpath 'com.google.gms:google-services:4.3.0'
 }
 
 
